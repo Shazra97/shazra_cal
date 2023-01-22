@@ -1,6 +1,6 @@
 .cal{
     width: 20%;
-    height: 55vh !important;
+    height: 60vh !important;
     margin: 0 auto;
     margin-top: 5%;
     background-color: #F08080;
@@ -10,13 +10,13 @@
 .result{
     width: 87%;
     margin: 0 auto;
-    background-color: #F08080;
+    background-color: #ad5454;
     padding: 20px;
     border: none;
     outline: none;
     border-radius: 30px;
-    caret-color: red;
     font-size: 30pt;
+    margin-bottom: 20px;
 }
 .brbtn{
     border-radius: 50%;
@@ -49,9 +49,9 @@
 @media only screen and (max-width:600px){
     .cal{
         width: 80%;
-        height: 62vh !important;
+        height: 65vh !important;
     }
     .result{
-        width: 80%;
+        width: 85%;
     }
 }
